@@ -1,0 +1,98 @@
+
+.top-armin-c{
+    background-color: #031760;
+}
+.sbar-armin-c{
+    background-color: #061d72;
+}
+.menu-amrin-c{
+    background-color: #072182;
+}
+.m-t-armin-s{
+    font-size: 13px;
+}
+.m-link-armin-h:hover{
+    border: 1.3px solid white;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.nav-links:hover{
+    cursor: pointer;
+    border-bottom: 2px solid red;
+}
+.megamenu{
+    right: 0;
+    top: 1.8rem;
+    width: 80vw;
+    height: 70vh;
+    display: none;
+    z-index: 10;
+    /* border: 1px solid; */
+}
+
+.has-submenu:hover .megamenu{
+    display: flex;
+}
+
+.megamenu-section{
+    height: 100%;
+    
+    overflow-y: auto ;
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+}
+
+.box3-r-armin-c{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-image: linear-gradient(#f8656f,#f92d60);
+   
+}
+.mega-ul-head {
+    border-right: 7px tomato dotted;
+    color: black ;
+}
+.mega-item-c{
+    color: rgb(158, 156, 156) ;
+}
+.slide-box3-h{
+    width: 12rem;
+    height: 12rem;
+}
+.box6-border-armin{
+    border-left: 0.7px solid rgb(177, 175, 175) ;
+}
+.box6-border-armin-row{
+    border-top: 0.8px solid rgb(171, 168, 168);
+}
+.slide-box11-h{
+    width: 23rem;
+    height: 23rem;
+}
+.w-amrin-box3-w{
+    width: 8rem;
+    height: auto ;
+}
+.ndi-armin{
+    width: 15px;
+}
+.bg-armin-footer-app{
+    background-color: rgb(240, 240, 240);
+}
+@media screen and (max-width: 600px) {
+    div.armin-nav {
+      display: none;
+    }
+    div.armin-icon-top{
+        display: none;
+    }
+    div.armin-footer{
+        display: none;
+    }
+}
